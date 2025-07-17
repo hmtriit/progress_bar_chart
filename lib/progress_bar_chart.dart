@@ -533,19 +533,6 @@ class _AnimatedProgressBarChartState extends State<AnimatedProgressBarChart>
     );
   }
 
-  Widget _buildProgressBar(double progress, Color color) {
-    return FractionallySizedBox(
-      widthFactor: progress,
-      child: Container(
-        height: widget.height,
-        decoration: BoxDecoration(
-          color: color,
-          borderRadius: BorderRadius.circular(widget.borderRadius),
-        ),
-      ),
-    );
-  }
-
   Widget _buildMarker(double containerWidth) {
     return Positioned(
       left:
