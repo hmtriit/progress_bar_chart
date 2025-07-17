@@ -215,19 +215,6 @@ class ProgressBarChart extends StatelessWidget {
     );
   }
 
-  Widget _buildProgressBar(double progress, Color color) {
-    return FractionallySizedBox(
-      widthFactor: progress,
-      child: Container(
-        height: height,
-        decoration: BoxDecoration(
-          color: color,
-          borderRadius: BorderRadius.circular(borderRadius),
-        ),
-      ),
-    );
-  }
-
   Widget _buildMarker(double containerWidth) {
     // Marker positioned at current value
     final markerPosition = data.currentValue / data.maxValue;
