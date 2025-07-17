@@ -1,4 +1,3 @@
-// example/lib/main.dart
 import 'package:flutter/material.dart';
 import 'package:progress_bar_chart/progress_bar_chart.dart';
 
@@ -48,7 +47,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 borderRadius: BorderRadius.circular(12),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.1),
+                    color: Colors.grey.withValues(alpha: 0.1),
                     spreadRadius: 1,
                     blurRadius: 10,
                     offset: Offset(0, 1),
@@ -82,7 +81,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 borderRadius: BorderRadius.circular(12),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.1),
+                    color: Colors.grey.withValues(alpha: 0.1),
                     spreadRadius: 1,
                     blurRadius: 10,
                     offset: Offset(0, 1),
@@ -114,7 +113,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 borderRadius: BorderRadius.circular(12),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.1),
+                    color: Colors.grey.withValues(alpha: 0.1),
                     spreadRadius: 1,
                     blurRadius: 10,
                     offset: Offset(0, 1),
@@ -150,7 +149,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 borderRadius: BorderRadius.circular(12),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.1),
+                    color: Colors.grey.withValues(alpha: 0.1),
                     spreadRadius: 1,
                     blurRadius: 10,
                     offset: Offset(0, 1),
@@ -185,7 +184,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 borderRadius: BorderRadius.circular(12),
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.grey.withOpacity(0.1),
+                    color: Colors.grey.withValues(alpha: 0.1),
                     spreadRadius: 1,
                     blurRadius: 10,
                     offset: Offset(0, 1),

@@ -1,6 +1,3 @@
-// lib/progress_bar_chart.dart
-library progress_bar_chart;
-
 import 'package:flutter/material.dart';
 
 /// Model class for chart data
@@ -50,7 +47,7 @@ class ProgressBarChart extends StatelessWidget {
   final Color markerColor;
 
   const ProgressBarChart({
-    Key? key,
+    super.key,
     required this.data,
     this.currentColor = const Color(0xFF6366F1),
     this.previousColor = const Color(0xFFA855F7),
@@ -65,7 +62,7 @@ class ProgressBarChart extends StatelessWidget {
     this.padding = const EdgeInsets.all(16.0),
     this.markerWidth = 3.0,
     this.markerColor = const Color(0xFF374151),
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -262,7 +259,7 @@ class ProgressBarChart extends StatelessWidget {
           ),
         ),
         Text(
-          '${(data.maxValue * 0.4).toStringAsFixed(1)}',
+          (data.maxValue * 0.4).toStringAsFixed(1),
           style: TextStyle(
             fontSize: 12,
             color: Color(0xFF6B7280),
@@ -270,7 +267,7 @@ class ProgressBarChart extends StatelessWidget {
           ),
         ),
         Text(
-          '${(data.maxValue * 0.6).toStringAsFixed(1)}',
+          (data.maxValue * 0.6).toStringAsFixed(1),
           style: TextStyle(
             fontSize: 12,
             color: Color(0xFF6B7280),
@@ -278,7 +275,7 @@ class ProgressBarChart extends StatelessWidget {
           ),
         ),
         Text(
-          '${(data.maxValue * 0.8).toStringAsFixed(1)}',
+          (data.maxValue * 0.8).toStringAsFixed(1),
           style: TextStyle(
             fontSize: 12,
             color: Color(0xFF6B7280),
@@ -286,7 +283,7 @@ class ProgressBarChart extends StatelessWidget {
           ),
         ),
         Text(
-          '${data.maxValue.toStringAsFixed(1)}',
+          data.maxValue.toStringAsFixed(1),
           style: TextStyle(
             fontSize: 12,
             color: Color(0xFF6B7280),
@@ -317,7 +314,7 @@ class AnimatedProgressBarChart extends StatefulWidget {
   final Duration animationDuration;
 
   const AnimatedProgressBarChart({
-    Key? key,
+    super.key,
     required this.data,
     this.currentColor = const Color(0xFF6366F1),
     this.previousColor = const Color(0xFFA855F7),
@@ -333,7 +330,7 @@ class AnimatedProgressBarChart extends StatefulWidget {
     this.markerWidth = 3.0,
     this.markerColor = const Color(0xFF374151),
     this.animationDuration = const Duration(milliseconds: 1500),
-  }) : super(key: key);
+  });
 
   @override
   State<AnimatedProgressBarChart> createState() =>
@@ -591,7 +588,7 @@ class _AnimatedProgressBarChartState extends State<AnimatedProgressBarChart>
           ),
         ),
         Text(
-          '${(widget.data.maxValue * 0.4).toStringAsFixed(1)}',
+          (widget.data.maxValue * 0.4).toStringAsFixed(1),
           style: TextStyle(
             fontSize: 12,
             color: Color(0xFF6B7280),
@@ -599,7 +596,7 @@ class _AnimatedProgressBarChartState extends State<AnimatedProgressBarChart>
           ),
         ),
         Text(
-          '${(widget.data.maxValue * 0.6).toStringAsFixed(1)}',
+          (widget.data.maxValue * 0.6).toStringAsFixed(1),
           style: TextStyle(
             fontSize: 12,
             color: Color(0xFF6B7280),
@@ -607,7 +604,7 @@ class _AnimatedProgressBarChartState extends State<AnimatedProgressBarChart>
           ),
         ),
         Text(
-          '${(widget.data.maxValue * 0.8).toStringAsFixed(1)}',
+          (widget.data.maxValue * 0.8).toStringAsFixed(1),
           style: TextStyle(
             fontSize: 12,
             color: Color(0xFF6B7280),
@@ -615,7 +612,7 @@ class _AnimatedProgressBarChartState extends State<AnimatedProgressBarChart>
           ),
         ),
         Text(
-          '${widget.data.maxValue.toStringAsFixed(1)}',
+          widget.data.maxValue.toStringAsFixed(1),
           style: TextStyle(
             fontSize: 12,
             color: Color(0xFF6B7280),
