@@ -3,7 +3,7 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
-  progress_bar_chart
+  progress_bar_chart_widget
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST

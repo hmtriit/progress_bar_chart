@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:progress_bar_chart/progress_bar_chart.dart';
+import 'package:progress_bar_chart_widget/progress_bar_chart.dart';
 
 void main() {
   group('ProgressBarChart Widget', () {

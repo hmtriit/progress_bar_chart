@@ -6,7 +6,7 @@
 
 #include "generated_plugin_registrant.h"
 
-#include <progress_bar_chart/progress_bar_chart_plugin_c_api.h>
+#include <progress_bar_chart_widget/progress_bar_chart_plugin_c_api.h>
 
 void RegisterPlugins(flutter::PluginRegistry* registry) {
   ProgressBarChartPluginCApiRegisterWithRegistrar(

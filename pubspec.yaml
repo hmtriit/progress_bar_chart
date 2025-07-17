@@ -1,4 +1,4 @@
-name: progress_bar_chart
+name: progress_bar_chart_widget
 description: "A Flutter plugin for creating beautiful progress bar charts with multiple data series, legends, and animations."
 version: 1.0.0
 homepage:

@@ -1,4 +1,4 @@
-# progress_bar_chart
+# progress_bar_chart_widget
 
 A Flutter plugin for creating beautiful, customizable progress bar charts with support for multiple data series, legends, and smooth animations.
 
@@ -22,7 +22,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  progress_bar_chart: ^1.0.0
+  progress_bar_chart_widget: ^1.0.0
 ```
 
 Then run:
@@ -36,7 +36,7 @@ flutter pub get
 Import the package:
 
 ```dart
-import 'package:progress_bar_chart/progress_bar_chart.dart';
+import 'package:progress_bar_chart_widget/progress_bar_chart.dart';
 ```
 
 ### Basic Example
